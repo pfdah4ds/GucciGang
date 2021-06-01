@@ -1,6 +1,6 @@
 alert('Hello sexy people');
 
-//Variable Declaration
+//VARIABLE DECLARTION
 console.log('Wtf kasari ayo name', name);
 var  name = 'Pratik'
 let names = 'Pratikd'
@@ -15,7 +15,7 @@ console.log(names);
 
 
 
-//Data Types
+//DATA TYPES
     //String
 let fname = "Pratik";
 let lname = "D";
@@ -55,6 +55,42 @@ console.log('Yo false auxa kina ki symbol le different banauxa eutai lai ni');
 //Checking datatype
 console.log(name_1.typeof());
 console.log(nulldt.typeof());
+
+
+//OPERATORS
+
+//addition
+console.log(5,' + ',3,' = ',5+3);
+
+//substraction
+console.log(5,' - ',3,' = ',5-3);
+
+//multiplication
+console.log(5,' * ',3,' = ',5*3);
+
+//division
+console.log(5,' / ',3,' = ',5/3);
+
+//remainder
+console.log(5,' % ',3,' = ',5%3);
+
+//assignment
+let x = 100; //hundred is assigned to x
+//x = x + 20; this line can be short handed as below
+x += 20;
+//short hand can be used in all opeartors
+
+//comaprison operator
+console.log('10>15'+10>15); //false
+
+console.log('10<15',10<15); //true
+
+console.log('10>=15',10<15); //false
+
+console.log('10=<15',10<15); //true
+
+
+
 
 
 
