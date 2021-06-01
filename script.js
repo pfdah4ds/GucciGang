@@ -53,8 +53,8 @@ console.log(name_1 == name_2);
 console.log('Yo false auxa kina ki symbol le different banauxa eutai lai ni');
 
 //Checking datatype
-console.log(name_1.typeof());
-console.log(nulldt.typeof());
+console.log(typeof(name1));
+console.log(typeof(nulldt));
 
 
 //OPERATORS
@@ -89,8 +89,10 @@ console.log('10>=15',10<15); //false
 
 console.log('10=<15',10<15); //true
 
+//TEMPLATE LITERALS
+console.log('My name is ',name,' and my age is',retu);
 
-
+console.log(`My Name is ${name} and I am ${age} years old`);
 
 
 
